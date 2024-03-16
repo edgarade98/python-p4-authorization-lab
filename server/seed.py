@@ -4,6 +4,9 @@ from random import randint, choice as rc
 
 from faker import Faker
 
+import sys
+sys.path.append("/Users/winnie/python-p4-authorization-lab/")
+
 from app import app
 from models import db, Article, User
 
